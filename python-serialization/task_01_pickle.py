@@ -37,7 +37,7 @@ class CustomObject:
             return None
 
 
-# main
+# main to test
 if __name__ == "__main__":
 
     # Create an instance of CustomObject
