@@ -22,7 +22,7 @@ The function ```serialize_and_save_to_file``` takes 2 parameters:
   
 The function ```load_and_deserialize``` take 1 ```parameters```:
 
-- ```filename```: The filename of the input JSON file This function returns a Python Dictionary with the deserialized JSON data from the file.
+- ```filename```: The filename of the input JSON file. This function returns a Python Dictionary with the deserialized JSON data from the file.
   
 Execution Output Example:
 ```
