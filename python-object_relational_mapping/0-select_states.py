@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """lists all states from the database htbn_0e_0_usa
+take 3 arguments: <mysql username>, <mysql password> and <database name>
 """
 import MySQLdb
 import sys
