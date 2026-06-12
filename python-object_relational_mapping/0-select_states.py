@@ -13,4 +13,3 @@ if __name__ == "__main__":
     rows_number = curs.execut("SELECT * FROM states ORDER BY states.id")
     for i in range(rows_number):
         print(curs.fetchone())
-    curs.close()
