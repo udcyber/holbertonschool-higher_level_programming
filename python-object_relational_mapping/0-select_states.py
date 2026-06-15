@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-"""A script that lists all states from the database htbn_0e_0_usa.
-should take 3 arguments: mysql username, mysql password, database name
-hould connect to a MySQL server running on localhost at port 3306
-results must be sorted in ascending order by states.id
+"""
+List all states from the database htbn_0e_0_usa.
 """
 
 import sys
