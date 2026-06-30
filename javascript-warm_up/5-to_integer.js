@@ -1,12 +1,14 @@
 #!/usr/bin/node
 
-// Write My number: (number) if the 1st argument can be converted to an integer.
+// Write "My number: (number)"" if the 1st argument can be converted to an integer.
 // Else, write "Not a number".
 
-const firstArg = process.argv[3];
+// Math.floor to change the number into an integer (fi 89.89 becomes 89)
+const firstArg = Math.floor(Number(process.argv[2]));
 
-if (Number.isInteger(firstArg)) {
-  console.log('My number: ');
+if (Number.isInteger(firstArg) === true) {
+  console.log(`My number: ${firstArg}`);
 }
-
-console.log('My number: <first argument converted in integer>');
+else if (Number.isInteger(firstArg) === false) {
+  console.log('Not a number');
+}
