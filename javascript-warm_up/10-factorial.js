@@ -9,10 +9,9 @@ function printFactorial (arg1) {
   // Check if arg1 is not a number.
   if ((isNaN(arg1)) || (arg1 === 0)) {
     return 1;
-  }
   // Recursion: the function calls itself until it reaches 0.
-  else {
-    return arg1 * (printFactorial (arg1 - 1));
+  } else {
+    return arg1 * (printFactorial(arg1 - 1));
   }
 }
 
