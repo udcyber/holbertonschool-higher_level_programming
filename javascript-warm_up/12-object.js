@@ -8,6 +8,6 @@ const myObject = {
 };
 console.log(myObject);
 // UPDATED CODE HERE
-myObject.update({value: 12})
+myObject.value = 89;
 // UPDATED CODE HERE
 console.log(myObject);
