@@ -4,7 +4,7 @@
 // Assume all arguments can be converted to integer.
 
 // Check if the list is empty or only has one argument.
-if (process.argv.length === 0 || process.argv.length === 1) {
+if (process.argv.length <= 3) {
   console.log(0);
 } else {
   const argList = process.argv.map(Number)
